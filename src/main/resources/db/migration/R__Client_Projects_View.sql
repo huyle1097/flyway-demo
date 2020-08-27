@@ -3,4 +3,4 @@ CREATE OR REPLACE VIEW client_projects AS
     FROM PROJECT P
     JOIN CLIENT C
     ON P.CLIENT_ID = C.ID
-    WHERE P.CLIENT_ID = 5;
+    WHERE C.CLIENT_NAME = 'Client B';

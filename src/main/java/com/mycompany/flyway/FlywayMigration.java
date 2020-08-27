@@ -9,7 +9,7 @@ import org.flywaydb.core.Flyway;
 
 public final class FlywayMigration {
 
-    private static String H2_DB_URL = "jdbc:h2:file:./target/foobar";
+    private static String H2_DB_URL = "jdbc:h2:file:D:/git/flyway-demo/target/foobar;AUTO_SERVER=TRUE;DB_CLOSE_DELAY=-1;ACCESS_MODE_DATA=rw;MODE=Oracle;";
     private static String H2_USERNAME = "SA";
     private static String H2_PASSWORD = null;
 
